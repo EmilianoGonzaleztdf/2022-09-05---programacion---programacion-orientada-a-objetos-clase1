@@ -20,3 +20,12 @@ class Persona {
         this.estaVivo = paramEstaVivo;
     };
 }
+ 
+let persona1 = new Persona (28,174,"masc","emiliano","gonzalez",38261313,true);
+let persona2 = new Persona (33,178,"masc","javier","chavarria",123,true);
+let persona3 = new Persona (43,160,"fem","erica","gram",12345,true);
+let persona4 = new Persona (123,180,"masc","example","example",12,false)
+
+console.log("las personas cargadas son las siguientes")
+console.log("===================================================")
+console.log(persona1,persona2,persona3,persona4);
