@@ -43,6 +43,49 @@ class auto {
 
 };
 
+class registroAutmotor{
+
+    /* atributos */
+    private pais : string;
+    private provincia : string;
+    private ciudad : string;
+    private sede : number;
+    private auto : auto;
+
+    /* funciones */
+
+    borrarAuto(): void{
+        console.log("se elimino el auto" + auto);
+    }
+    crearAuto(): void {
+        console.log("se creo el auto" + auto);
+    }
+    modificarMarca(): void {
+        console.log("se modifico la marca de" + auto);
+        //return this.auto.marca;
+    };
+    modificarModelo() : void {
+        console.log("se modifico el modelo de" + auto);
+        //return this.auto.modelo;
+    };
+    modificarAnio() : void {
+        console.log("se modifico el anio de" + auto);
+        //return this.auto.anio;
+    }
+    modificarColor() : void {
+        console.log("se modifico el color de" + auto);
+        //return this.auto.color;
+    };
+    modificarChasis() : void {
+        console.log("se modifico el chasis de" + auto);
+        //return this.auto.chasis;
+    };
+    modificarEsNuevo() : void {
+        console.log("se modifico el estad de" + auto);
+        //return this.auto.esnuevo;
+    };
+};
+
 /* creacion de hijos */
 
 let auto1 = new auto("vw","gol",2012,"azul como el mar azul",123456,false);
@@ -58,7 +101,3 @@ let auto5 = new auto("ford","fiesta kinetic", 2015,"negro como la noche",123460,
 console.log("----------------------");
 console.log("los vehiculos cargados son:");
 console.log(auto1, auto2, auto3, auto4, auto5);
-
-/* funciones */
-   
-   
